@@ -1,0 +1,335 @@
+{
+  "length": 0,
+  "animations": [
+    {
+      "bone": "head",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "body",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "body",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_arm",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            1,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_arm",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -1,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_leg",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.25,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_leg",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_leg",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -0.25,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_leg",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "hat",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "jacket",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "jacket",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_sleeve",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            1,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_sleeve",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_sleeve",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -1,
+            -5,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_sleeve",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_pants",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.25,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_pants",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_pants",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -0.25,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_pants",
+      "target": "scale",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0.8,
+            0.7999999999999999,
+            0.8
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    }
+  ]
+}

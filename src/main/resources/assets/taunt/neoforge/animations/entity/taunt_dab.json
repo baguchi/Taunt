@@ -1,0 +1,95 @@
+{
+  "length": 0,
+  "animations": [
+    {
+      "bone": "head",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            25,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_arm",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -140.04718849392384,
+            37.42655169599584,
+            -35.96064572602745
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -115.04718849392384,
+            37.42655169599584,
+            -35.96064572602745
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "hat",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            25,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_sleeve",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -140.04718849392384,
+            37.42655169599584,
+            -35.96064572602745
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_sleeve",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -115.04718849392384,
+            37.42655169599584,
+            -35.96064572602745
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    }
+  ]
+}
