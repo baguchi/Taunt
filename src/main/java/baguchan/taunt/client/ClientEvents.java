@@ -1,12 +1,11 @@
 package baguchan.taunt.client;
 
-import bagu_chan.bagus_lib.animation.BaguAnimationController;
 import bagu_chan.bagus_lib.api.client.IRootModel;
 import bagu_chan.bagus_lib.client.event.BagusModelEvent;
-import bagu_chan.bagus_lib.util.client.AnimationUtil;
 import baguchan.taunt.TauntMod;
 import baguchan.taunt.network.TauntPacket;
 import baguchan.taunt.registry.ModAttachments;
+import baguchan.taunt.registry.ModKeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.player.LocalPlayer;
@@ -16,7 +15,6 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.client.entity.animation.json.AnimationHolder;
 import net.neoforged.neoforge.client.entity.animation.json.AnimationLoader;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
@@ -30,21 +28,13 @@ public class ClientEvents {
         LocalPlayer player = Minecraft.getInstance().player;
         if (player == null)
             return;
-        if (tauntTick <= 0 && ClientRegistry.taunt.isDown()) {
+        if (tauntTick <= 0 && ModKeyMapping.taunt.isDown()) {
             PacketDistributor.sendToServer(new TauntPacket());
             tauntTick = 23;
         }else {
             if (tauntTick > 0){
                 tauntTick--;
             }
-        }
-    }
-
-    @SubscribeEvent
-    public static void animationInitEvent(BagusModelEvent.Init bagusModelEvent) {
-        IRootModel rootModel = bagusModelEvent.getRootModel();
-        if (bagusModelEvent.isSupportedAnimateModel() && bagusModelEvent.getEntity().getData(ModAttachments.TAUNT).getActionTick() > 0) {
-
         }
     }
 

@@ -11,7 +11,7 @@ public class TauntAnimationRegistry {
     @SubscribeEvent
     public static void registryAnimaiton(RegisterBagusAnimationEvents events){
         if(events.getEntity() instanceof Player) {
-            TauntMod.registryAccess().registryOrThrow(Taunts.TAUNT_VARIANT_REGISTRY_KEY).holders().forEach(taunt -> {
+            events.getEntity().registryAccess().registryOrThrow(Taunts.TAUNT_VARIANT_REGISTRY_KEY).holders().forEach(taunt -> {
                 events.addAnimationState(taunt.value().tauntLocation());
             });
         }

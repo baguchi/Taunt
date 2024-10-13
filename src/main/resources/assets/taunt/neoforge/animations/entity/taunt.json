@@ -1,51 +1,461 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"taunt": {
-			"loop": true,
-			"bones": {
-				"head": {
-					"position": [0, -2, 0]
-				},
-				"body": {
-					"position": [0, -2, 0]
-				},
-				"right_arm": {
-					"rotation": [23.97594, 7.30111, -15.9477],
-					"position": [0, -2, 0]
-				},
-				"left_arm": {
-					"rotation": [-16.57337, 19.05681, 20.20848],
-					"position": [0, -3, 0]
-				},
-				"right_leg": {
-					"rotation": [-20, 0, 0],
-					"position": [0, 0, -2]
-				},
-				"left_leg": {
-					"rotation": [42.5, 0, 0],
-					"position": [0, -2, 0]
-				},
-				"hat": {
-					"position": [0, -2, 0]
-				},
-				"right_sleeve": {
-					"rotation": [23.97594, 7.30111, -15.9477],
-					"position": [0, -2, 0]
-				},
-				"left_sleeve": {
-					"rotation": [-16.57337, 19.05681, 20.20848],
-					"position": [0, -3, 0]
-				},
-				"right_pants": {
-					"rotation": [-20, 0, 0],
-					"position": [0, 0, -2]
-				},
-				"left_pants": {
-					"rotation": [42.5, 0, 0],
-					"position": [0, -2, 0]
-				}
-			}
-		}
-	}
+  "length": 0.25,
+  "animations": [
+    {
+      "bone": "head",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "body",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_arm",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_arm",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            23.975935508671682,
+            7.301106394354974,
+            -15.947698119025972
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            23.975935508671682,
+            7.301106394354974,
+            -15.947698119025972
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -3,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -3,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -16.573373057811295,
+            19.0568148077341,
+            20.208484171646887
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            -16.573373057811295,
+            19.0568148077341,
+            20.208484171646887
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_leg",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            0,
+            -2
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            0,
+            -2
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_leg",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -20,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            -20,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_leg",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_leg",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            42.5,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            42.5,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "hat",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_sleeve",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_sleeve",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            23.975935508671682,
+            7.301106394354974,
+            -15.947698119025972
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            23.975935508671682,
+            7.301106394354974,
+            -15.947698119025972
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_sleeve",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -3,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -3,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_sleeve",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -16.573373057811295,
+            19.0568148077341,
+            20.208484171646887
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            -16.573373057811295,
+            19.0568148077341,
+            20.208484171646887
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_pants",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            0,
+            -2
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            0,
+            -2
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "right_pants",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            -20,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            -20,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_pants",
+      "target": "position",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    },
+    {
+      "bone": "left_pants",
+      "target": "rotation",
+      "keyframes": [
+        {
+          "timestamp": 0,
+          "target": [
+            42.5,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        },
+        {
+          "timestamp": 0.25,
+          "target": [
+            42.5,
+            0,
+            0
+          ],
+          "interpolation": "linear"
+        }
+      ]
+    }
+  ]
 }
