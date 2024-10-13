@@ -4,7 +4,7 @@ This mod add Taunt from pizza tower game!
 
 ## How to add Custom taunt animation?
 
-1. First You need blockbench.
+1. First You need blockbench. and Animation To Json Converter
 2. new project -> skin(Player Wide and no pose) -> convert to java model format
 3. renaming correct model part name (ex. Head -> head. RightArm -> right_arm)
 4. make the animation
