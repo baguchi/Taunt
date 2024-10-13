@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"taunt": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, -2, 0]
+				},
+				"body": {
+					"position": [0, -2, 0]
+				},
+				"right_arm": {
+					"rotation": [23.97594, 7.30111, -15.9477],
+					"position": [0, -2, 0]
+				},
+				"left_arm": {
+					"rotation": [-16.57337, 19.05681, 20.20848],
+					"position": [0, -3, 0]
+				},
+				"right_leg": {
+					"rotation": [-20, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"left_leg": {
+					"rotation": [42.5, 0, 0],
+					"position": [0, -2, 0]
+				},
+				"hat": {
+					"position": [0, -2, 0]
+				},
+				"right_sleeve": {
+					"rotation": [23.97594, 7.30111, -15.9477],
+					"position": [0, -2, 0]
+				},
+				"left_sleeve": {
+					"rotation": [-16.57337, 19.05681, 20.20848],
+					"position": [0, -3, 0]
+				},
+				"right_pants": {
+					"rotation": [-20, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"left_pants": {
+					"rotation": [42.5, 0, 0],
+					"position": [0, -2, 0]
+				}
+			}
+		}
+	}
+}
