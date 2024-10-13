@@ -47,7 +47,7 @@ public class TauntPacket implements CustomPacketPayload, IPayloadHandler<TauntPa
             Player player = context.player();
             Optional<Holder.Reference<Taunt>> taunt = TauntMod.registryAccess().registryOrThrow(Taunts.TAUNT_VARIANT_REGISTRY_KEY).getRandom(player.getRandom());
             if(taunt.isPresent()) {
-                player.getData(ModAttachments.TAUNT).setActionTick(20);
+                player.getData(ModAttachments.TAUNT).setActionTick(10);
                 player.getData(ModAttachments.TAUNT).syncAction(player, taunt.get().value().tauntLocation());
                 AnimationUtil.sendAnimation(player, taunt.get().value().tauntLocation());
 

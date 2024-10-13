@@ -20,7 +20,9 @@ public class CommonEvents {
         if (tauntAttachments.getActionTick() > 0) {
             tauntAttachments.setActionTick(tauntAttachments.getActionTick() - 1);
             if (tauntAttachments.getActionTick() == 0) {
-                AnimationUtil.sendStopAnimation(event.getEntity(), tauntAttachments.getAction());
+                if (!event.getEntity().level().isClientSide()) {
+                    AnimationUtil.sendStopAnimation(event.getEntity(), tauntAttachments.getAction());
+                }
             }
         }
     }

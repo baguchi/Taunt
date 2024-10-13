@@ -1,5 +1,5 @@
 {
-  "length": 0.25,
+  "length": 0,
   "animations": [
     {
       "bone": "head",
@@ -7,15 +7,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -2,
@@ -37,15 +28,6 @@
             0
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -55,15 +37,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -2,
@@ -85,15 +58,6 @@
             -15.947698119025972
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            23.975935508671682,
-            7.301106394354974,
-            -15.947698119025972
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -103,15 +67,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -3,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -3,
@@ -133,15 +88,6 @@
             20.208484171646887
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            -16.573373057811295,
-            19.0568148077341,
-            20.208484171646887
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -151,15 +97,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            0,
-            -2
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             0,
@@ -181,15 +118,6 @@
             0
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            -20,
-            0,
-            0
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -205,15 +133,6 @@
             0
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -223,15 +142,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            42.5,
-            0,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             42.5,
             0,
@@ -253,15 +163,6 @@
             0
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -271,15 +172,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -2,
@@ -301,15 +193,6 @@
             -15.947698119025972
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            23.975935508671682,
-            7.301106394354974,
-            -15.947698119025972
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -319,15 +202,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -3,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -3,
@@ -349,15 +223,6 @@
             20.208484171646887
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            -16.573373057811295,
-            19.0568148077341,
-            20.208484171646887
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -367,15 +232,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            0,
-            -2
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             0,
@@ -397,15 +253,6 @@
             0
           ],
           "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
-          "target": [
-            -20,
-            0,
-            0
-          ],
-          "interpolation": "linear"
         }
       ]
     },
@@ -415,15 +262,6 @@
       "keyframes": [
         {
           "timestamp": 0,
-          "target": [
-            0,
-            -2,
-            0
-          ],
-          "interpolation": "linear"
-        },
-        {
-          "timestamp": 0.25,
           "target": [
             0,
             -2,
@@ -445,12 +283,18 @@
             0
           ],
           "interpolation": "linear"
-        },
+        }
+      ]
+    },
+    {
+      "bone": "jacket",
+      "target": "position",
+      "keyframes": [
         {
-          "timestamp": 0.25,
+          "timestamp": 0,
           "target": [
-            42.5,
             0,
+            -2,
             0
           ],
           "interpolation": "linear"

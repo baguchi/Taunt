@@ -30,7 +30,7 @@ public class ClientEvents {
             return;
         if (tauntTick <= 0 && ModKeyMapping.taunt.isDown()) {
             PacketDistributor.sendToServer(new TauntPacket());
-            tauntTick = 23;
+            tauntTick = 12;
         }else {
             if (tauntTick > 0){
                 tauntTick--;
