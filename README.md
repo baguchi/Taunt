@@ -10,6 +10,6 @@ This mod add Taunt from pizza tower game!
 4. make the animation
 5. file -> export Animation to json
 6. saved json to assets/<modid>/neoforge/animations/entity folder
-7. write json to assets/<modid>/taunt/taunt folder(see
-   the https://github.com/baguchi/Taunt/blob/master/src/main/resources/assets/taunt/taunt/taunt_1.json)
+7. write json to data/<modid>/taunt/taunt folder(see
+   the https://github.com/baguchi/Taunt/blob/master/src/main/resources/data/taunt/taunt/taunt/taunt_1.json)
 8. done!
