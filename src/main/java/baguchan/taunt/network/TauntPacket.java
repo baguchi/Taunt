@@ -13,7 +13,6 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.player.Player;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
@@ -48,10 +47,10 @@ public class TauntPacket implements CustomPacketPayload, IPayloadHandler<TauntPa
             Player player = context.player();
             Optional<Holder.Reference<Taunt>> taunt = TauntMod.registryAccess().registryOrThrow(Taunts.TAUNT_VARIANT_REGISTRY_KEY).getRandom(player.getRandom());
             if(taunt.isPresent()) {
+                player.getData(ModAttachments.TAUNT).setActionTick(20);
                 player.getData(ModAttachments.TAUNT).syncAction(player, taunt.get().value().tauntLocation());
                 AnimationUtil.sendAnimation(player, taunt.get().value().tauntLocation());
-                player.getData(ModAttachments.TAUNT).setActionTick(20);
-                player.playSound(SoundEvents.ANVIL_PLACE, 1.0F, 1.5F);
+
                 if(player.level() instanceof ServerLevel serverLevel && player instanceof ServerPlayer serverPlayer){
                     serverLevel.sendParticles(ParticleTypes.FLASH, serverPlayer.getX(), serverPlayer.getY(), serverPlayer.getZ(), 1, 0, 0, 0, 1.0F);
                 }
