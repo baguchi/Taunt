@@ -2,6 +2,10 @@
 
 This mod add Taunt from pizza tower game!
 
+If you taunt. you will get small invincibility time. also parry the arrow!
+
+default taunt key is r key
+
 ## How to add Custom taunt animation?
 
 1. First You need blockbench. and Animation To Json Converter
