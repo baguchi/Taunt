@@ -10,6 +10,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.ProjectileImpactEvent;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.entity.living.LivingKnockBackEvent;
+import net.neoforged.neoforge.event.entity.player.AttackEntityEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.tick.EntityTickEvent;
 
 @EventBusSubscriber(modid = TauntMod.MODID)
@@ -18,12 +20,37 @@ public class CommonEvents {
     public static void tickEvent(EntityTickEvent.Post event) {
         TauntAttachments tauntAttachments = event.getEntity().getData(ModAttachments.TAUNT);
         if (tauntAttachments.getActionTick() > 0) {
+            event.getEntity().setDeltaMovement(0, 0, 0);
             tauntAttachments.setActionTick(tauntAttachments.getActionTick() - 1);
             if (tauntAttachments.getActionTick() == 0) {
                 if (!event.getEntity().level().isClientSide()) {
                     AnimationUtil.sendStopAnimation(event.getEntity(), tauntAttachments.getAction());
                 }
             }
+        }
+    }
+
+    @SubscribeEvent
+    public static void attackEvent(AttackEntityEvent event) {
+        TauntAttachments tauntAttachments = event.getEntity().getData(ModAttachments.TAUNT);
+        if (tauntAttachments.getActionTick() > 0) {
+            event.setCanceled(true);
+        }
+    }
+
+    @SubscribeEvent
+    public static void clickBlockEvent(PlayerInteractEvent.RightClickBlock event) {
+        TauntAttachments tauntAttachments = event.getEntity().getData(ModAttachments.TAUNT);
+        if (tauntAttachments.getActionTick() > 0) {
+            event.setCanceled(true);
+        }
+    }
+
+    @SubscribeEvent
+    public static void clickItemEvent(PlayerInteractEvent.RightClickItem event) {
+        TauntAttachments tauntAttachments = event.getEntity().getData(ModAttachments.TAUNT);
+        if (tauntAttachments.getActionTick() > 0) {
+            event.setCanceled(true);
         }
     }
 
@@ -41,7 +68,7 @@ public class CommonEvents {
             TauntAttachments taunt = hitResult.getEntity().getData(ModAttachments.TAUNT);
             if (taunt != null && taunt.getActionTick() > 0) {
                 event.setCanceled(true);
-                event.getProjectile().deflect(ProjectileDeflection.AIM_DEFLECT, event.getProjectile().getOwner(), event.getProjectile().getOwner(), true);
+                event.getProjectile().deflect(ProjectileDeflection.REVERSE, event.getProjectile().getOwner(), event.getProjectile().getOwner(), true);
             }
         }
     }
